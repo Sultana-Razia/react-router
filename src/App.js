@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Friend/Header/Header';
+import Header from './components/Header/Header';
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import Friends from './components/Friends/Friends';
@@ -10,6 +10,7 @@ import Posts from './components/Posts/Posts';
 import PostDetail from './components/PostDetail/PostDetail';
 import Countries from './components/Countries/Countries';
 import CountryDetail from './components/CountryDetail/CountryDetail';
+
 
 
 function App() {
